@@ -1,0 +1,36 @@
+#git
+Jika baru pertama kali meggunakan software Git, sebaiknya konfigurasi username dan email dulu
+Git config --global user.name "username anda"
+Git config --global user.email "email anda"
+
+
+11. Setelah melakukan konfigurasi username dan email, kemudian lakukan inisiasi dengan menulis perintah berikut
+
+Git init
+
+12. Kemudian tambahkan semua file yang ada dalam folder project kita, ketikan
+Git add *
+
+
+13. Buat commit projectnya, sebagai contoh disini commit “versi 1.0”
+Git commit –m "test"
+
+
+14. Setelah kita buat commit untuk projectnya, remote repository yang telah dibuat tadi, contoh https://github.com/danairwanda/test.git, ketikan
+Git remote add origin https://github.com/danairwanda/test.git
+
+
+15. Setelah meremote repository, kemudian kita pull projectnya dengan perintah
+Git pull origin master
+
+
+16. Kirim project ke repository kita
+Git push origin master
+Image for post
+Image for post
+
+17. Terakhir, kita akan diminta username dan password kita. Untuk password mungkin kita tidak akan melihat password yang kita ketikan
+
+18. Tunggu sampai project selesai di upload
+
+19. Jika proses upload selesai, cek pada Github lalu refresh repository, maka file kita sudah terupload disana
